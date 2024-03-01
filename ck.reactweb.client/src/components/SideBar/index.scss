@@ -1,0 +1,44 @@
+.sidebar--main--container {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  color: black;
+  border-right: 1px solid black;
+  width: 400px;
+  .sidebar--header--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    .sidebar--title--company {
+      font-size: 40px;
+      padding: 20px;
+    }
+  }
+  .sidebar--primary--modules--container {
+    border-top: 2px solid grey;
+    .primary--module--item {
+      padding: 20px;
+      border-bottom: 1px solid black;
+      position: relative;
+      display: flex;
+      flex-direction:column;
+
+      svg {
+        font-size: 20px;
+      }
+      .primary--module--item--header {
+        display: flex;
+        justify-content: space-between;
+      }
+      .primary--module--subitems {
+        max-height: 0;
+        background-color: black;
+
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+// Login Page Styles
+
+// Contenedor
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  // Formulario
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); // Añade una sutil sombra para mejorar la profundidad
+  
+    // Ajustes de color y contraste
+    color: #333; // Color de texto general
+    background-color: #f7f7f7; // Fondo del formulario
+  
+    // Aumento del tamaño de fuente
+    font-size: 16px;
+  
+    // Alineación de las etiquetas
+    text-align: left;
+  }
+  
+  // Campos de entrada
+  .login-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px; // Aumento del tamaño de fuente
+  
+    // Ajuste de color y contraste
+    color: #333;
+    background-color: #fff;
+  
+    &:focus {
+      border-color: #007bff; // Resaltar el borde al enfocar
+    }
+  }
+  
+  // Botón de envío
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px; // Aumento del tamaño de fuente
+  
+    // Ajuste de la prominencia visual
+    background-color: #0069d9; // Color azul más oscuro
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); // Añadir una sutil sombra
+  
+    &:hover {
+      background-color: #0057b7; // Efecto al pasar el ratón
+    }
+  }
+  
+  // Texto de la etiqueta
+  .login-label {
+    color: #333; // Color del texto de la etiqueta
+  
+    // Aumento del tamaño de fuente
+    font-size: 14px;
+  }
+  
+  // Título
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px; // Aumento del tamaño de fuente
+    font-weight: 500;
+  }
+  
